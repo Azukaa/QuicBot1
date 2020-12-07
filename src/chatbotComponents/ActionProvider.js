@@ -14,9 +14,6 @@ class ActionProvider {
     greet = () => {
         
         let message = this.createChatBotMessage("Hi!, I am Beatrice,\r\n QuicHealth assistant chatbot. What would you like to do today?", 
-        //     {
-        //     widget: "options",
-        // }  
     );
         this.addMessageToState(message);
     }
